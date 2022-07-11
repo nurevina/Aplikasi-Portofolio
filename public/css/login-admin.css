@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    grid-template-columns: 1fr, 1fr;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.kiri {
+    flex-basis: 45%;
+    min-width: 110px;
+}
+
+.kiri img {
+    max-width: 100%;
+    margin-top: -20px;
+    width: 930px;
+}
+
+.kanan {
+    margin-top: 120px;
+}
+
+.kanan h1 {
+    font-size: 35px;
+    margin-left: 80px;
+}
+
+p {
+    display: flex;
+    flex-basis: 30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    background: #263238;
+    color: #fff;
+    padding: 15px 280px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.button:hover {
+    background: #D9863B;
+    color: #fff;
+}
+
+table {
+    border: solid 1px #fff;
+    border-collapse: collapse;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 60%;
+    font-size: 15px;
+}
+
+td {
+    padding: 12px 0;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 18px;
+    color: #D9863B;
+}
